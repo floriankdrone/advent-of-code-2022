@@ -1,0 +1,31 @@
+{
+  "name": "advent-of-code-2022",
+  "version": "1.0.0",
+  "description": "Advent of code 2022",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./day1/solution.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floriankdrone/advent-of-code-2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/floriankdrone/advent-of-code-2022/issues"
+  },
+  "homepage": "https://github.com/floriankdrone/advent-of-code-2022#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "@types/tough-cookie": "^4.0.2",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "got": "~11.8.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "tough-cookie": "^4.1.2"
+  }
+}
