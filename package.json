@@ -4,7 +4,10 @@
   "description": "Advent of code 2022",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node ./day2/solution.ts",
+    "start": "ts-node ./day3/solution.ts",
+    "day1": "ts-node ./day1/solution.ts",
+    "day2": "ts-node ./day2/solution.ts",
+    "day3": "ts-node ./day3/solution.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
